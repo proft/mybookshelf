@@ -1,7 +1,7 @@
 my bookshelf
 ============
 
-Simple book reading manager. Use case: you have many ebooks on your computer, situated in diferent folders. You can list all reading books by command ``bs -l`` and open specified book in one touch by ``bs -r book_id``. 
+Simple book reading manager. Use case: you have many ebooks on your computer, situated in diferent folders. You can list all reading books by command ``bs`` and open specified book in one touch by ``bs -r book_id``. 
 
 Tested on *Arch Linux* + *XFCE 4.10* with *python 3* and *evince* as reader.
 
@@ -23,7 +23,11 @@ List all reading books
 
     bs
 
-Set page *10* for book with ID *1*
+Start reading book with ID *1* in *evince*
+
+    bs -r 1
+
+Set page *123* for book with ID *1*
 
     bs -p 1 123
     

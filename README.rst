@@ -8,7 +8,7 @@ Tested on *Arch Linux* + *XFCE 4.10* with *python 3* and *evince* as reader.
 Install
 -------
 
-Python dependency - [termcolor](http://pypi.python.org/pypi/termcolor).
+Python dependency: [termcolor](http://pypi.python.org/pypi/termcolor) .
 
 Clone to convenient directory and symlink to */usr/bin/bs*.
 
